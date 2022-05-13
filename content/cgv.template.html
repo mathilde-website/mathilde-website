@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+
+{% set noindex = True %}
+
+{% set subtitle -%}
+{% markdown %}
+Conditions générales de vente
+{% endmarkdown %}
+{% endset %}
+
+{% block main %}
+
+{% include "partials/_cgv_nav.html" %}
+{% include "partials/_header.html" %}
+
+<section class="w-full p-6 mx-0 bg-gray-100 min-w-fit md">
+{% markdown %}
+
+{{ body }}
+
+{% endmarkdown %}
+</section>
+{% endblock main %}

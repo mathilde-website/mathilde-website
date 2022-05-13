@@ -1,0 +1,14 @@
+variables:
+  base_url:
+    default: "https://www.vet-guillon.fr/"
+    from_env: URL
+
+steps:
+  - run: "npx tailwindcss --postcss -i content/_style.css -o output/style.css"
+    watch:
+      - "postcss.config.js"
+      - "tailwind.config.js"
+      - "content/_style.css"
+      - "content/*.html"
+      - "content/*.md"
+      - "combine_static.yml"
