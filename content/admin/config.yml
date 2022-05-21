@@ -10,24 +10,25 @@ public_folder: "/img"
 
 site_url: https://TODO.fr
 
-# media_library:
-#   name: uploadcare
-#   config:
-#     publicKey: a32e2d502e4a1f85e47c
-
 collections:
+
   - name: metadata
-    label: "Métadonnées"
+    label: "Données du site"
     files:
-    - label: "Métadonnées"
+    - label: "Métadonnées pour les moteurs de recherche"
+      name: seo_metadata
+      file: seo_metadata.yml
+      fields:
+        - {label: "Titre de l'onglet", name: "page_title", widget: "string"}
+        - {label: "Description (pour les moteurs de recherche)", name: "description", widget: "string"}
+        - {label: "Mots clés (pour les moteurs de recherche, séparé par des virgules)", name: "keywords", widget: "string"}
+    - label: "Contenu de la bannière et du pied de page"
       name: metadata
       file: metadata.yml
       fields:
         - {label: "Titre du site (bannière)", name: "title", widget: "string"}
-        - {label: "Titre de l'onglet", name: "page_title", widget: "string"}
-        - {label: "Sous-titre", name: "subtitle", widget: "string"}
-        - {label: "Description (pour les moteurs de recherche)", name: "description", widget: "string"}
-        - {label: "Mots clés (pour les moteurs de recherche, séparé par des virgules)", name: "keywords", widget: "string"}
+        - {label: "Sous-titre", name: "subtitle", widget: "markdown"}
+
   - name: "section" # Used in routes, e.g., /admin/collections/blog
     label: "Sections" # Used in the UI
     files:
@@ -41,15 +42,21 @@ collections:
           - label: Contenu
             name: body
             widget: markdown
-          - label: Images
-            name: thumbnail
-            widget: image
-            media_library:
-              config:
-                multiple: true
+          - name: images
+            label: Images
+            widget: list
+            field:
+              name: image
+              label: Image
+              widget: object
+              fields:
+                - {name: src, label: Image, widget: image}
+                - {name: alt, label: Alt text, widget: string}
+                - {name: title, label: Title, widget: string}
+
       - label: "Prestations"
         name: "services"
-        file: "content/_services.html"
+        file: "content/_services.md"
         fields:
           - label: Titre
             name: title
@@ -57,15 +64,21 @@ collections:
           - label: Contenu
             name: body
             widget: markdown
-          - label: Images
-            name: thumbnail
-            widget: image
-            media_library:
-              config:
-                multiple: true
+          - name: images
+            label: Images
+            widget: list
+            field:
+              name: image
+              label: Image
+              widget: object
+              fields:
+                - {name: src, label: Image, widget: image}
+                - {name: alt, label: Alt text, widget: string}
+                - {name: title, label: Title, widget: string}
+
       - label: "Tarifs"
         name: "pricing"
-        file: "content/_pricing.html"
+        file: "content/_pricing.md"
         fields:
           - label: Titre
             name: title
@@ -73,15 +86,21 @@ collections:
           - label: Contenu
             name: body
             widget: markdown
-          - label: Images
-            name: thumbnail
-            widget: image
-            media_library:
-              config:
-                multiple: true
+          - name: images
+            label: Images
+            widget: list
+            field:
+              name: image
+              label: Image
+              widget: object
+              fields:
+                - {name: src, label: Image, widget: image}
+                - {name: alt, label: Alt text, widget: string}
+                - {name: title, label: Title, widget: string}
+
       - label: "Contact"
         name: "contact"
-        file: "content/_contact.html"
+        file: "content/_contact.md"
         fields:
           - label: Titre
             name: title
@@ -89,9 +108,15 @@ collections:
           - label: Contenu
             name: body
             widget: markdown
-          - label: Images
-            name: thumbnail
-            widget: image
-            media_library:
-              config:
-                multiple: true
+
+          - name: images
+            label: Images
+            widget: list
+            field:
+              name: image
+              label: Image
+              widget: object
+              fields:
+                - {name: src, label: Image, widget: image}
+                - {name: alt, label: Alt text, widget: string}
+                - {name: title, label: Title, widget: string}

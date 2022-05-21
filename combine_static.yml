@@ -1,0 +1,19 @@
+variables:
+  base_url:
+    default: "https://TODO.fr/"
+    from_env: URL
+
+steps:
+  - run: "mkdir -p output/js/ output/css/"
+  - run: "cp node_modules/leaflet/dist/leaflet.js output/js/"
+    watch:
+    - "node_modules/leaflet/dist/leaflet.js"
+  - run: "cp node_modules/leaflet/dist/leaflet.css output/css/"
+    watch:
+    - "node_modules/leaflet/dist/leaflet.css"
+  - run: "npx tailwindcss --postcss -i content/_style.css -o output/style.css"
+    watch:
+      - "postcss.config.js"
+      - "tailwind.config.js"
+      - "content/_style.css"
+      - "content/*.html"

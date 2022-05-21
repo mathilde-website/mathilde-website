@@ -1,3 +1,4 @@
 #!/bin/bash -eu
 
-exec combine build
+poetry run ./data.py
+exec poetry run combine build

@@ -8,17 +8,14 @@
               <span aria-hidden="true" class="burger-line block absolute  h-0.5 w-5 bg-current transform  transition duration-500 ease-in-out" :class="{'-rotate-45': open, ' translate-y-1.5': !open}"></span>
           </div>
       </button>
-      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#" >{{ title }}</a>
+      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#" >{{ metadata.menu_title }}</a>
   </div>
 
   <div class="hidden mx-auto menu sm:block">
     <div class="flex flex-col sm:flex-row">
-      <a class="flex-1 hidden px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg sm:block hover:bg-gray-500/20" href="#" >{{ title }}</a>
-      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" target="_blank" href="{{ facebook_url }}">Facebook</a>
-      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#{{ contact_tag }}">{{ contact_title }}</a>
-      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#{{ services_tag }}">{{ services_title }}</a>
-      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#{{ about_me_tag }}">{{ about_me_title }}</a>
-      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#{{ photos_tag }}">{{ photos_title }}</a>
+      <a class="flex-1 hidden px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg sm:block hover:bg-gray-500/20" href="#" >{{ metadata.menu_title }}</a>
+      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" target="_blank" href="{{ metadata.facebook_url }}">Facebook</a>
+      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#">...</a>
     </div>
   </div>
 </nav>
