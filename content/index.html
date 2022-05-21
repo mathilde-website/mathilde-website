@@ -1,0 +1,209 @@
+{% extends "page.template.html" %}
+
+{% set title -%}
+Docteure Vétérinaire Mathilde Guillon
+{% endset %}
+
+{% set page_title -%}
+Docteure Vétérinaire Mathilde Guillon - Médecine du comportement - Toutes espèces
+{% endset %}
+
+{% set default_subtitle -%}
+{% markdown %}
+Médecine du comportement
+
+Toutes espèces
+{% endmarkdown %}
+{% endset %}
+{% set subtitle = subtitle | default(default_subtitle) %}
+
+{% set description -%}
+TODO Docteure Vétérinaire Mathilde Guillon - Médecine du comportement - Toutes espèces
+{% endset %}
+
+{% set keywords -%}
+TODO
+{% endset %}
+
+{% set social_file = "social-fr.png" %}
+
+{% set copyright -%}
+{% markdown %}
+© Mathilde Guillon 2022-
+{% endmarkdown %}
+{% endset %}
+
+{% set contact_tag = "contact" %}
+{% set contact_title = "Contact" %}
+
+{% block main_info %}
+{% markdown %}
+
+{% endmarkdown %}
+{% endblock main_info %}
+
+{% set services_tag = "prestations" %}
+{% set services_title = "Prestations" %}
+{% block services %}
+{% markdown %}
+
+{% endmarkdown %}
+{% endblock services %}
+
+{% block map_text %}
+{% markdown %}
+
+### Zone d'intervention
+
+J'interviens dans un rayon de 25 km environ autour de Lesterps: Bellac, Saint-Junien, Confolens, Availles-Limouzine, Mézières-sur-Issoire, Brigueuil, Saint-Maurice-des-Lions, Brillac, Blond, Nouic, Montrollet... En cas de doute, [contactez-moi](#manon-bourgeois-cuny)!
+
+{% endmarkdown %}
+{% endblock map_text %}
+
+{% set about_me_tag = "a-propos-de-manon" %}
+{% set about_me_title = "À propos" %}
+
+{% block about_me %}
+{% markdown %}
+### A propos de Manon…
+
+L’idée de créer cette auto-entreprise m’est venue car plusieurs propriétaires ces dernières années m’ont demandé d’apporter des soins à leurs chevaux et autres animaux pendant leur absence.
+Ces personnes recherchaient quelqu’un de confiance, disponible et ayant des connaissances dans le milieu équin.
+Avec plus de 12 ans d’expérience dans les chevaux en France et à l’étranger, notamment en tant que responsable d’élevage, je suis devenue la personne à contacter en cas de départ, même inopiné, pour vérifier que la « famille » animale restant à la maison se porte bien.
+
+En plus de mon expérience pratique, je suis titulaire d’un BTS Productions Animales option Equin ainsi que d’une Licence Pro. valorisation et commercialisation des chevaux qui m’ont offert un socle de connaissances théoriques dont je me sers quotidiennement.
+
+Par ailleurs, étant titulaire du BPJEPS équitation depuis 2011 et montant en concours complet sur mon temps de loisir, je travaille régulièrement des chevaux, que ce soit à pied ou monté. Je vous propose ainsi, au besoin, le travail et/ou l’entretien de vos chevaux.
+
+J’ai pu constater que les propriétaires de chevaux possèdent souvent d’autres animaux. J’ai donc décidé de me former, en passant l’ACACED, pour répondre au mieux à cette demande.
+
+Possédant moi-même un cheval et un chat depuis plusieurs années, j’ai dû parfois m’absenter, d’où ma compréhension du besoin primordial de vous adresser à une personne de confiance, qui assure votre sérénité et le confort de vos animaux.
+
+Au fil du temps, j’ai acquis de l’expérience grâce aux différentes missions que j’ai déjà effectuées, tant auprès de particuliers que de professionnels. Elles m’ont permises de rencontrer de nombreux animaux et de créer une relation, tout en tenant compte de leur caractère propre. J’ai pu constater que ces chevaux, chiens, chats appréciaient tous l’amour, l’attention et les soins que je leur procurais, et que leurs [propriétaires étaient ravis](#temoignages).
+
+Votre confiance au fil des années est l'atout principal qui me permet d’allier chaque jour travail et passion, en prenant soin et en communiquant avec les animaux.
+Pour cela, je vais, continuer à m’investir avec beaucoup d’amour, de sérieux et de professionnalisme dans le bien-être de vos compagnons animaliers !
+
+**Avec Manon et ses visites à domicile, partez l’esprit tranquille :)**
+{% endmarkdown %}
+{% endblock about_me %}
+
+
+{% block testimonies_t1 %}
+{% markdown %}
+
+### Témoignages
+
+> Cela fait maintenant plus de 10 ans que nous demandons régulièrement à Manon de s’occuper de notre structure équestre lors de nos absences, pour des durées allant d’une journée à une dizaine de jours consécutifs. À chaque occasion, cela nous permet de partir sereinement sachant qu’elle prendra soin des chevaux comme si c’était les siens. Quotidiennement elle est capable de gérer le bien-être de nos 50 chevaux (partie élevage et centre équestre), 3 chiens et 2 chats, vérifiant individuellement qu’ils ont absolument tout ce dont ils ont besoin et répondant de manière adéquate à la détection du moindre souci.
+De plus, Manon possède une très bonne connaissance du cheval, elle a « l’œil de l’éleveur ». C’est aussi une cavalière diplômée ; sa technique équestre lui permet de travailler en autonomie des chevaux dans le respect de leur intégrité psychique et physique à pied comme monté.
+Manon est une personne extrêmement rigoureuse qui fait preuve d’une grande conscience professionnelle dans tout ce qu’elle entreprend.
+Vous pouvez lui confier vos protégés les yeux fermés, elle saura en prendre soin en suivant vos instructions à la lettre.
+
+<cite>**Aude-Lyne et Alan**, Gérants du Domaine de Gauchoux, Centre Equestre et Elevage sur Peyrat-de-Bellac (87300)</cite>
+
+{% endmarkdown %}
+{% endblock testimonies_t1 %}
+
+{% block testimonies_t2 %}
+{% markdown %}
+
+> Je connais Manon (Bourgeois-Cuny) depuis plusieurs années, elle prend soin de mes chevaux lorsque nous sommes absents, souvent sur une durée de plusieurs semaines à la suite, elle est très compétente, fiable, gentille et de confiance, elle comprend très bien les chevaux et nous ne nous inquiétons pas lorsque nous avons besoin de laisser les chevaux sous la responsabilité de Manon.
+> Elle prend également soin de nos chats, poissons et plantes, elle fait donc preuve d’adaptabilité et est capable d’effectuer différentes tâches. Je peux très certainement recommander Manon si vous êtes à la recherche d’une gardienne à domicile pour vos chevaux et animaux.
+
+<cite>**Clare**, Propriétaire de chevaux (chats, poissons et plantes) sur Nouic (87330)</cite>
+
+{% endmarkdown %}
+{% endblock testimonies_t2 %}
+
+{% block testimonies_t3 %}
+{% markdown %}
+
+> Manon est incroyable !
+> Manon est compétente sur de nombreux aspects du soin animal et elle est une véritable femme de cheval, maîtrisant les différents domaines tels que le comportement, les soins, l’équitation ou l’entrainement des chevaux. Vous pouvez partir avec confiance, sachant que tous vos animaux vont recevoir les meilleurs soins.
+> Manon a eu en charge notre centre équestre et nos animaux de compagnie lors de plusieurs occasions sur différentes années. Manon REGARDE vraiment tous vos animaux à chaque fois qu’elle est avec eux, interprétant leur communication corporelle et évaluant leur état de santé.
+> Manon a géré nos 25 à 30 chevaux (étalons, juments, poulains, jeunes et chevaux d’école), ainsi que nos chats d’intérieur et d’extérieur, notre chat « de grange », et nos chiens. En plus de la routine quotidienne de soins et surveillance, quelques individus nécessitaient des régimes alimentaires particuliers, l’administration de médicaments, et certains chevaux devaient avoir des manipulations particulières.
+
+<cite>**Nancy and Trey**, Gérants d’E Komo Mai Sport Horses, Centre Equestre et Elevage à Hawai’i (USA)</cite>
+
+{% endmarkdown %}
+{% endblock testimonies_t3 %}
+
+{% block testimonies_t4 %}
+{% markdown %}
+
+> Je recours aux soins, depuis plusieurs années, de Manon Bourgeois-Cuny pour mes deux chevaux lorsque je suis en déplacement ou
+en vacances. (En semaine ou les jours fériés).
+> Sa prestation est effectuée avec un grand sérieux et beaucoup d'attention. Elle prodigue des soins si elle remarque la moindre anomalie et connait parfaitement les produits
+vétérinaires.
+> Je suis tout à fait satisfaite de sa prestation et je la recommande chaleureusement.
+
+<cite>**Isabel**, Propriétaire de chevaux sur Montrollet (16420)</cite>
+
+{% endmarkdown %}
+{% endblock testimonies_t4 %}
+
+{% block testimonies_t5 %}
+{% markdown %}
+
+> Dans ma pratique professionnelle, je fais de la « médiation animale », cela explique la diversité des animaux que j’accueille au sein de ma structure.
+> Manon sait s’adapter aux exigences de chacun (lapins, cochons nain, chèvre, mouton, chiens, poneys, âne, chevaux). Elle est extrêmement consciencieuse, elle a une capacité d’observation très importante concernant la bonne santé de tous, le bien-être animal est sa priorité.
+> Ses compétences en équitation me permettent aussi de lui faire travailler mes chevaux lorsque j’en ai besoin. Son approche reste toujours très juste, que ce soit au sol ou à cheval.
+> J’ai une confiance absolue en elle, et à chaque fois que je pars de ma structure sur plusieurs jours, je n’ai aucun stress. Je ne peux donc que la recommander.
+
+<cite>**Anne-Karine**, Gérante de la structure professionnelle : La Petite Maison de Gauchoux sur Peyrat-de-Bellac (87300)</cite>
+
+{% endmarkdown %}
+{% endblock testimonies_t5 %}
+
+{% block testimonies_t6 %}
+{% markdown %}
+
+> Je suis extrêmement satisfaite de tout ce que Manon a fait pour ma jument pendant sa convalescence. C'est elle qui a pris en charge les soins quotidiens et la rééducation car ma jument était loin de mon domicile.
+> Manon a fait un travail fantastique: jour après jour, elle m'a fourni un compte-rendu détaillé de l'évolution de ma jument, et a pris soin de toujours respecter à la lettre les instructions, tant de moi que de la vétérinaire.
+> Son expérience auprès des équidés pour les soins mais aussi le travail m'a permis de lui faire entièrement confiance, et ça s'est passé au mieux. Ma jument a été remise sur pieds, et même si j'espère qu'elle ne se blessera plus, j'ai trouvé en Manon une professionnelle de confiance pour s'en occuper si ça arrivait de nouveau.
+
+<cite>**Sarah**, Propriétaire de Chevaux sur Poitiers (86000)</cite>
+
+{% endmarkdown %}
+{% endblock testimonies_t6 %}
+
+{% block testimonies_t7 %}
+{% markdown %}
+
+> J’ai contacté Manon pour la garde de mes 6 chiens et de ma maison, elle a su me mettre en confiance et me rassurer dès le premier rendez-vous.
+> Elle a un très bon contact, son calme et sa patience font que les animaux viennent à elle.
+> Elle ne ménage pas son temps et son investissement.
+> Un petit message qui rassure et qui fait chaud au cœur durant notre absence.
+> Bref je recommande vivement Manon, professionnelle et pleinement dédiée aux animaux qu’on lui confie.
+
+<cite>**Cécile**, Propriétaire de chiens sur Peyrat-de-Bellac (87300)</cite>
+
+{% endmarkdown %}
+{% endblock testimonies_t7 %}
+
+{% block testimonies_t8 %}
+{% markdown %}
+
+> Manon a pris soin de mes 3 chevaux, 2 poneys et 3 chiens lorsque je suis partie en vacances, Manon est responsable, fiable et bienveillante.
+> Je compte à nouveau lui demander de venir prendre soin de mes animaux cette année.
+
+<cite>**Laurel**, Propriétaire de Chevaux et Chiens sur Nouic (87330)</cite>
+
+{% endmarkdown %}
+{% endblock testimonies_t8 %}
+
+{% block testimonies_t9 %}
+{% markdown %}
+
+> Je suis propriétaire de 3 chevaux vivant au pré toute l’année et j’ai régulièrement besoin des services de Manon lorsque je m’absente : elle passe quotidiennement les voir et s’assurer qu’ils vont bien. Elle veille à les nourrir (rations et foin en fonction de mes instructions), à vérifier et remettre de l’eau, et surtout elle n’hésite pas à me contacter au moindre doute sur leur santé.
+> Si je ne suis pas joignable, Manon est entièrement capable de gérer quoique ce soit grâce à son expérience dans le monde de l’élevage, je pars ainsi sereinement. Je la recommande à toute personne désirant prendre l’air et nécessitant que quelqu’un de confiance puisse être là pour ses chevaux.
+
+<cite>**Mélanie**, Propriétaire de chevaux sur Peyrat-de-Bellac (87300)</cite>
+
+{% endmarkdown %}
+{% endblock testimonies_t9 %}
+
+{% set photos_tag = "photos" %}
+{% set photos_title = "Photos" %}
+
+{% set terms_title = "Conditions Générales de Vente" %}

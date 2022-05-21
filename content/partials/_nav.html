@@ -1,0 +1,37 @@
+<nav class="fixed inset-0 bg-gray-100 z-[1500] h-min">
+    <div id="burger" data-open="false" class="relative flex mx-auto sm:max-w-xl sm:hidden">
+      <button class="absolute w-10 h-12 text-gray-500 top-2 focus:outline-none">
+          <span class="sr-only">Open main menu</span>
+          <div class="absolute block w-5 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
+              <span aria-hidden="true" class="burger-line block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'rotate-45': open,' -translate-y-1.5': !open }"></span>
+              <span aria-hidden="true" class="burger-line block absolute  h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'opacity-0': open } "></span>
+              <span aria-hidden="true" class="burger-line block absolute  h-0.5 w-5 bg-current transform  transition duration-500 ease-in-out" :class="{'-rotate-45': open, ' translate-y-1.5': !open}"></span>
+          </div>
+      </button>
+      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#" >{{ title }}</a>
+  </div>
+
+  <div class="hidden mx-auto menu sm:block">
+    <div class="flex flex-col sm:flex-row">
+      <a class="flex-1 hidden px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg sm:block hover:bg-gray-500/20" href="#" >{{ title }}</a>
+      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" target="_blank" href="{{ facebook_url }}">Facebook</a>
+      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#{{ contact_tag }}">{{ contact_title }}</a>
+      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#{{ services_tag }}">{{ services_title }}</a>
+      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#{{ about_me_tag }}">{{ about_me_title }}</a>
+      <a class="flex-1 px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" href="#{{ photos_tag }}">{{ photos_title }}</a>
+    </div>
+  </div>
+</nav>
+
+<!--
+    =======================================================================
+    Name    :   Hamburger Menu - Open Close Animation
+    Author  :   Surjith S M
+    Twitter :   @surjithctly
+
+    Get more components here 👉 https://web3templates.com/components
+
+    Copyright © 2021
+    =======================================================================
+ -->
+

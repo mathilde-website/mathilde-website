@@ -1,0 +1,97 @@
+backend:
+  name: github
+  branch: main
+  repo: ewjoachim/mathilde-website
+
+publish_mode: editorial_workflow
+
+media_folder: "content/img"
+public_folder: "/img"
+
+site_url: https://TODO.fr
+
+# media_library:
+#   name: uploadcare
+#   config:
+#     publicKey: a32e2d502e4a1f85e47c
+
+collections:
+  - name: metadata
+    label: "Métadonnées"
+    files:
+    - label: "Métadonnées"
+      name: metadata
+      file: metadata.yml
+      fields:
+        - {label: "Titre du site (bannière)", name: "title", widget: "string"}
+        - {label: "Titre de l'onglet", name: "page_title", widget: "string"}
+        - {label: "Sous-titre", name: "subtitle", widget: "string"}
+        - {label: "Description (pour les moteurs de recherche)", name: "description", widget: "string"}
+        - {label: "Mots clés (pour les moteurs de recherche, séparé par des virgules)", name: "keywords", widget: "string"}
+  - name: "section" # Used in routes, e.g., /admin/collections/blog
+    label: "Sections" # Used in the UI
+    files:
+      - label: "Qui suis-je ?"
+        name: "about"
+        file: "content/_about.md"
+        fields:
+          - label: Titre
+            name: title
+            widget: string
+          - label: Contenu
+            name: body
+            widget: markdown
+          - label: Images
+            name: thumbnail
+            widget: image
+            media_library:
+              config:
+                multiple: true
+      - label: "Prestations"
+        name: "services"
+        file: "content/_services.html"
+        fields:
+          - label: Titre
+            name: title
+            widget: string
+          - label: Contenu
+            name: body
+            widget: markdown
+          - label: Images
+            name: thumbnail
+            widget: image
+            media_library:
+              config:
+                multiple: true
+      - label: "Tarifs"
+        name: "pricing"
+        file: "content/_pricing.html"
+        fields:
+          - label: Titre
+            name: title
+            widget: string
+          - label: Contenu
+            name: body
+            widget: markdown
+          - label: Images
+            name: thumbnail
+            widget: image
+            media_library:
+              config:
+                multiple: true
+      - label: "Contact"
+        name: "contact"
+        file: "content/_contact.html"
+        fields:
+          - label: Titre
+            name: title
+            widget: string
+          - label: Contenu
+            name: body
+            widget: markdown
+          - label: Images
+            name: thumbnail
+            widget: image
+            media_library:
+              config:
+                multiple: true

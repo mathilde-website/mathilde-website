@@ -1,0 +1,44 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  {% if noindex|default(False) %}
+  <meta name="robots" content="noindex">
+  {% endif %}
+
+  <!-- Primary Meta Tags -->
+  <title>{{ page_title }}</title>
+  <meta name="title" content="{{ page_title }}">
+  <meta name="description" content="{{ description }}">
+  <meta name="keywords" content="{{ keywords }}">
+
+  <!-- Favicon -->
+  <!-- https://favicon.io/favicon-generator/ -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+
+  <!-- Open Graph / Facebook -->
+  {% set social_url = '{base_url}/img/{social_file}'.format(
+    base_url=base_url,
+    social_file=social_file | default('social.png'),
+  ) %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ page_title }}">
+  <meta property="og:url" content="{{ base_url }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:image" content="{{ social_url }}">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ base_url }}">
+  <meta property="twitter:title" content="{{ title }}">
+  <meta property="twitter:description" content="{{ description }}">
+  <meta property="twitter:image" content="{{ social_url }}">
+
+  <link href="/style.css" rel="stylesheet">
+  <link href="/css/leaflet.css" rel="stylesheet">
+
+  <script src="/js/leaflet.js"></script>
+
+</head>

@@ -1,0 +1,3 @@
+[build]
+    publish = "output"
+    command = "poetry install && poetry run ./build"
