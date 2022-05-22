@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.querySelectorAll('a[href="mailto:"]').forEach((element) => {
-    // what's displayed
-    var email = element.innerHTML + "@" + document.querySelector("body").dataset.emailDomain
+    var sourceElement = document.getElementById("email");
+    var email = sourceElement.dataset.email + "@" + sourceElement.dataset.domain;
     element.href = "mailto:" + email;
     element.innerHTML = email;
   })

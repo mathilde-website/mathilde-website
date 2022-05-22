@@ -31,7 +31,6 @@ collections:
         - {label: "Titre du site (menu de navigation)", name: menu_title, widget: "string"}
         - {label: "Image de bannière", name: hero_image, widget: "image"}
         - {label: "Sous-titre", name: subtitle, widget: "markdown"}
-        - {label: "Nom de domaine associé à l'email de contact", name: email_domain, widget: "string"}
         - {label: "URL de la page facebook", name: facebook_url, widget: "string"}
         - {label: "Contenu du footer (copyright etc)", name: copyright, widget: "markdown"}
 
@@ -107,6 +106,11 @@ collections:
           - label: Titre
             name: title
             widget: string
+
+          - label: Email de contact
+            name: email
+            widget: string
+
           - label: Contenu
             name: body
             widget: markdown

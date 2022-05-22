@@ -62,7 +62,7 @@
 <!doctype html>
 <html lang="fr">
 {% include "partials/_head.html" %}
-<body class="pt-16 text-gray-900 bg-gray-100 bg-cover sm:bg-center sm:bg-cover sm:bg-fixed sm:bg-[url('{{ metadata.hero_image }}')]" data-email-domain="{{ metadata.email_domain }}">
+<body class="pt-16 text-gray-900 bg-gray-100 bg-cover sm:bg-center sm:bg-cover sm:bg-fixed sm:bg-[url('{{ metadata.hero_image }}')]">
 
 {% include "partials/_nav.html" %}
 {% include "partials/_header.html" %}
@@ -97,7 +97,9 @@
 </div>
 {% endcall %}
 
-{% call section(contact) %}{% endcall %}
+{% call section(contact) %}
+<span id="email" data-email="{{ contact.email.split('@')[0] }}" data-domain="{{ contact.email.split('@')[1] }}"></span>
+{% endcall %}
 
 {% include "partials/_footer.html" %}
   <script src="/js/script.js"></script>
