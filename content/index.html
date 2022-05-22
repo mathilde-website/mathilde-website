@@ -40,9 +40,11 @@
 {%- macro section(sec) -%}
 <section class="flex flex-col w-full py-6 mx-0 lg:p-12 sm:p-6 {% if dir.next() %}md:flex-row{% else %}md:flex-row-reverse{% endif %} min-w-fit {{ bg_colors.next() }}">
 <div class="flex-1 px-6 py-6 md:text-justify lg:px-12 md">
-<h3 class="pb-4 text-xl font-bold" id="{{ sec.fragment }}">
+{% if sec.title is defined %}
+<h3 class="pb-4 text-xl font-bold"{% if sec.fragment is defined %} id="{{ sec.fragment }}{% endif %}">
   {{ sec.title }}
 </h3>
+{% endif %}
 {% markdown %}
 
 {{ sec.body }}
@@ -64,6 +66,7 @@
 {% include "partials/_head.html" %}
 <body class="pt-16 text-gray-900 bg-gray-100 bg-cover sm:bg-center sm:bg-cover sm:bg-fixed sm:bg-[url('{{ metadata.hero_image }}')]">
 
+{% block main %}
 {% include "partials/_nav.html" %}
 {% include "partials/_header.html" %}
 
@@ -100,6 +103,8 @@
 {% call section(contact) %}
 <span id="email" data-email="{{ contact.email.split('@')[0] }}" data-domain="{{ contact.email.split('@')[1] }}"></span>
 {% endcall %}
+
+{% endblock main %}
 
 {% include "partials/_footer.html" %}
   <script src="/js/script.js"></script>

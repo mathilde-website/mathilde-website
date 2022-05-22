@@ -1,5 +1,6 @@
 ---
 template: cgv.template.html
+title: Conditions Générales de Vente
 ---
 
 TODO
