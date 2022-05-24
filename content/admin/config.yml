@@ -22,7 +22,7 @@ collections:
         - {label: "Titre de l'onglet", name: "page_title", widget: "string"}
         - {label: "Description (pour les moteurs de recherche)", name: "description", widget: "string"}
         - {label: "Mots clés (pour les moteurs de recherche, séparé par des virgules)", name: "keywords", widget: "string"}
-        - {label: "Image à afficher quand l'url est postée sur les réseaux sociaux", name: "social_image", widget: image}
+        - {label: "Image à afficher quand l'url est postée sur les réseaux sociaux", name: "social_file", widget: image}
     - label: "Contenu de la bannière et du pied de page"
       name: metadata
       file: content/_metadata.yml
