@@ -1,6 +1,6 @@
 ---
 template: cgv.template.html
-title: Conditions Générales de Vente
+title: Conditions Générales de Fonctionnement
 ---
 # ***Mathilde Guillon, vétérinaire consultante en medecine du comportement***
 
