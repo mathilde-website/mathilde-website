@@ -13,7 +13,7 @@ La docteure vétérinaire Mathilde Guillon ne dispose pas d’établissement de
 Moyens de contact de la docteure vétérinaire Mathilde Guillon :
 
 * Par téléphone au 07 49 99 76 87
-* Par mail à l’adresse *[vet.guillon@gmail.com](mailto:annesophie.personnat@hotmail.com)*
+* Par mail à l’adresse *[](mailto:)*
 
 ### Horaires d'ouverture habituels et conditions d'accueil du public
 
@@ -25,11 +25,11 @@ Docteure Mathilde Guillon, vétérinaire, diplômée de l'école d'Alfort, CEAV
 
 ### Prestations effectuées
 
-La docteure Mathilde Guillon a un exercice exclusif en médecine du comportement. Les examens complémentaires éventuellement nécessaires sont effectués par le vétérinaire habituel. Aucun médicament n’est délivré par la docteure Mathilde Guillon. En cas de nécessité une ordonnance est réalisée et les médicaments sont à retirer chez le vétérinaire habituel ou en pharmacie.
+La docteure vétérinaire Mathilde Guillon a un exercice exclusif en médecine du comportement. Les examens complémentaires éventuellement nécessaires sont effectués par le vétérinaire habituel. Aucun médicament n’est délivré par la docteure vétérinaire Mathilde Guillon. En cas de nécessité une ordonnance est réalisée et les médicaments sont à retirer chez le vétérinaire habituel ou en pharmacie.
 
 ### Permanence et continuité des soins
 
-La permanence et la continuité des soins sont effectuées par le vétérinaire habituel. Pour la médecine du comportement uniquement, les coordonnées de la Dre Mathilde Guillon seront laissées au client.
+La permanence et la continuité des soins sont effectuées par le vétérinaire habituel. Pour la médecine du comportement uniquement, les coordonnées de la docteure vétérinaire Mathilde Guillon seront laissées au client.
 
 ### Espèces traitées
 
@@ -44,7 +44,7 @@ Les espèces habituellement et occasionnellement traitées lors des consultation
 
 Les tarifs sont consultables sur ce site interne, rubrique « tarifs » ou sur demande du propriétaire de l’animal.
 
-Les frais de déplacement sont calculés depuis l’adresse du siège social du docteur Anne-Sophie Personnat.
+Les frais de déplacement sont calculés depuis l’adresse du siège social de la docteure Mathilde Guillon.
 
 ### Litiges
 
@@ -52,17 +52,17 @@ En cas de litige à caractère déontologique, le client peut s’adresser au CR
 
 ### RCP
 
-Adresse de la compagnie assurance en charge de la RCP de la docteure Mathilde Guillon : 1 rue Alphonse de Saintonge, 17000 La Rochelle 
+Adresse de la compagnie assurance en charge de la RCP de la docteure vétérinaire Mathilde Guillon : La Médicale, 1 rue Alphonse de Saintonge, 17000 La Rochelle 
 
 ### Loi « Informatique et libertés », secret professionnel
 
-Conformément à la Loi « Informatique et Libertés » du 6 janvier 1978, le Client dispose d'un droit d'accès, de modification, de suppression des données le concernant auprès du Docteur vétérinaire Personnat Anne-Sophie.
+Conformément à la Loi « Informatique et Libertés » du 6 janvier 1978, le Client dispose d'un droit d'accès, de modification, de suppression des données le concernant auprès de la docteure vétérinaire Mathilde Guillon.
 
 Tout vétérinaire est soumis au secret professionnel, aucune information recueillie lors de la consultation ne pourra être divulguée sauf commission rogatoire selon les conditions prévues par la loi.
 
 ### Risque thérapeutique, risque anesthésique, risque lié à la contention, consentement éclairé du client
 
-Le comportement agressif d’un animal nécessite parfois l’utilisation de moyens de contention pouvant occasionnellement entraîner une blessure de ce dernier et/ou du vétérinaire. Le vétérinaire informera dans ce cas le client de la nécessité d’utiliser une contention particulière pour des raisons de sécurité. La consultation ne sera effectuée qu’en cas d’acceptation de la contention par le client. Le client déclare avoir pris connaissance et accepter les risques thérapeutiques et le cas échéant les conditions particulières d'examen sous contention énoncées ci-dessus.
+Le comportement agressif d’un animal nécessite parfois l’utilisation de moyens de contention pouvant occasionnellement entraîner une blessure de ce dernier et/ou de la docteure vétérinaire Mathilde Guillon. La vétérinaire informera dans ce cas le client de la nécessité d’utiliser une contention particulière pour des raisons de sécurité. La consultation ne sera effectuée qu’en cas d’acceptation de la contention par le client. Le client déclare avoir pris connaissance et accepter les risques thérapeutiques et le cas échéant les conditions particulières d'examen sous contention énoncées ci-dessus.
 
 ### Admission des animaux visés par la Législation sur les chiens dangereux.
 
@@ -72,6 +72,6 @@ Les chiens de première et deuxième catégories sont acceptés en consultation 
 
 Les honoraires sont payables comptants en fin de consultation.
 
-De manière exceptionnelle, un paiement différé peut être accepté selon des modalités convenues entre le vétérinaire et le client.
+De manière exceptionnelle, un paiement différé peut être accepté selon des modalités convenues entre la docteure vétérinaire Mathilde Guillon et le client.
 
-Le vétérinaire se réserve le droit de poursuivre le débiteur en cas de non-paiement.
+La docteure vétérinaire Mathilde Guillon se réserve le droit de poursuivre le débiteur en cas de non-paiement.
