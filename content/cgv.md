@@ -29,7 +29,7 @@ La docteure Mathilde Guillon a un exercice exclusif en médecine du comportement
 
 ### Permanence et continuité des soins
 
-La permanence et la continuité des soins sont effectuées par le vétérinaire habituel. Pour la médecine du comportement uniquement, les coordonnées de la Dre Mathilde Guillon seront laissées au client.
+La permanence et la continuité des soins sont effectuées par le vétérinaire habituel. Pour la médecine du comportement uniquement, les coordonnées de la docteure Mathilde Guillon seront laissées au client.
 
 ### Espèces traitées
 
@@ -44,7 +44,7 @@ Les espèces habituellement et occasionnellement traitées lors des consultation
 
 Les tarifs sont consultables sur ce site interne, rubrique « tarifs » ou sur demande du propriétaire de l’animal.
 
-Les frais de déplacement sont calculés depuis l’adresse du siège social du docteur Anne-Sophie Personnat.
+Les frais de déplacement sont calculés depuis l’adresse du siège social de la docteure Mathilde Guillon.
 
 ### Litiges
 
@@ -56,13 +56,13 @@ Adresse de la compagnie assurance en charge de la RCP de la docteure Mathilde Gu
 
 ### Loi « Informatique et libertés », secret professionnel
 
-Conformément à la Loi « Informatique et Libertés » du 6 janvier 1978, le Client dispose d'un droit d'accès, de modification, de suppression des données le concernant auprès du Docteur vétérinaire Personnat Anne-Sophie.
+Conformément à la Loi « Informatique et Libertés » du 6 janvier 1978, le Client dispose d'un droit d'accès, de modification, de suppression des données le concernant auprès de la docteure vétérinaire Mathilde Guillon.
 
 Tout vétérinaire est soumis au secret professionnel, aucune information recueillie lors de la consultation ne pourra être divulguée sauf commission rogatoire selon les conditions prévues par la loi.
 
 ### Risque thérapeutique, risque anesthésique, risque lié à la contention, consentement éclairé du client
 
-Le comportement agressif d’un animal nécessite parfois l’utilisation de moyens de contention pouvant occasionnellement entraîner une blessure de ce dernier et/ou du vétérinaire. Le vétérinaire informera dans ce cas le client de la nécessité d’utiliser une contention particulière pour des raisons de sécurité. La consultation ne sera effectuée qu’en cas d’acceptation de la contention par le client. Le client déclare avoir pris connaissance et accepter les risques thérapeutiques et le cas échéant les conditions particulières d'examen sous contention énoncées ci-dessus.
+Le comportement agressif d’un animal nécessite parfois l’utilisation de moyens de contention pouvant occasionnellement entraîner une blessure de ce dernier et/ou de la vétérinaire. La vétérinaire informera dans ce cas le client de la nécessité d’utiliser une contention particulière pour des raisons de sécurité. La consultation ne sera effectuée qu’en cas d’acceptation de la contention par le client. Le client déclare avoir pris connaissance et accepter les risques thérapeutiques et le cas échéant les conditions particulières d'examen sous contention énoncées ci-dessus.
 
 ### Admission des animaux visés par la Législation sur les chiens dangereux.
 
@@ -72,6 +72,6 @@ Les chiens de première et deuxième catégories sont acceptés en consultation 
 
 Les honoraires sont payables comptants en fin de consultation.
 
-De manière exceptionnelle, un paiement différé peut être accepté selon des modalités convenues entre le vétérinaire et le client.
+De manière exceptionnelle, un paiement différé peut être accepté selon des modalités convenues entre la vétérinaire et le client.
 
-Le vétérinaire se réserve le droit de poursuivre le débiteur en cas de non-paiement.
+La vétérinaire se réserve le droit de poursuivre le débiteur en cas de non-paiement.
