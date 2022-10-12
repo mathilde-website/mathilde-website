@@ -38,4 +38,3 @@ images:
     alt: Test Alt 1
     title: Test title 1
 ---
-.
