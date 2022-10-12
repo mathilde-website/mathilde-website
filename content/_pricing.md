@@ -37,4 +37,7 @@ images:
   - src: /img/20220912_190521.jpg
     alt: Test Alt 1
     title: Test title 1
+  - src: /img/jack-le-chien.png
+    alt: Chien qui fait le beau
+    title: titre 12
 ---
