@@ -5,6 +5,9 @@ images:
   - src: /img/img_6355.jpg
     alt: Test alt 2
     title: Test title 2
+  - src: /img/3b29e94c-1e05-4d82-bd0f-c6138600d682.jpeg
+    alt: Chien tenant une balle
+    title: Test title 3
 ---
 Une consultation dure entre une et deux heures, mêlant une discussion et une mise en situation. Je propose différents services :
 
