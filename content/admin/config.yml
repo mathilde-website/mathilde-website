@@ -84,6 +84,7 @@ collections:
           - label: Contenu (optionnel, apparait au dessus des prix)
             name: body
             widget: markdown
+            required: false
           - name: pricing
             label: Tarifs
             widget: list
