@@ -2,7 +2,7 @@
 title: Prestations
 fragment: prestations
 images:
-  - src: /img/2.png
+  - src: /img/img_6355.jpg
     alt: Test alt 2
     title: Test title 2
 ---
