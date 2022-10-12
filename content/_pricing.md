@@ -34,7 +34,7 @@ pricing:
       **Offert** à partir de 3 consultations dans la même zone<br>
       **offert** si déplacement chez votre vétérinaire
 images:
-  - src: /img/1.png
+  - src: /img/20220912_190521.jpg
     alt: Test Alt 1
     title: Test title 1
 ---
