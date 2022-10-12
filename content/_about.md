@@ -5,7 +5,7 @@ images:
   - src: /img/1.png
     alt: Test Alt 1
     title: Test title 1
-  - src: /img/2.png
+  - src: /img/2ffcaba1-943b-480d-a280-30e3f83ad027.jpeg
     alt: Test alt 2
     title: Test title 2
 ---
