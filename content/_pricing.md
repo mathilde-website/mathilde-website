@@ -17,7 +17,7 @@ pricing:
 
       [loi-2008]: https://www.veterinaire.fr/je-suis-proprietaire-danimaux/fiches-pratiques/levaluation-comportementale-des-chiens
   - type: Diagnose de catégorie
-    price: "**70€** + déplacement"
+    price: "**80€** + déplacement"
     details: |-
       Détermination de l’appartenance ou non à une catégorie (chiens de type
       « pitbulls », croisés Rottweilers, boerbulls)
