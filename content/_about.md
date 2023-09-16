@@ -15,8 +15,8 @@ C’est donc tout naturellement que j’ai poursuivi mes études par un Certific
 
 Je propose aujourd’hui mes services en tant que vétérinaire consultante en médecine du comportement, en travaillant en lien étroit avec votre vétérinaire traitant. Mon approche se veut bienveillante, à l’écoute des besoins de l’humain autant que de ceux de l’animal. J’ai d’ailleurs également suivi une formation complémentaire en psychologie au cours de mon CEAV afin de vous fournir le meilleur accompagnement possible. 
 
-Je dispose enfin d’une formation complémentaire en nutrition physiologique des carnivores domestiques, qui peut me permettre de revenir avec vous sur la ration alimentaire de votre chien ou votre chat au besoin. 
+Je dispose enfin d’une formation complémentaire en nutrition physiologique des carnivores domestiques, qui peut me permettre de revenir avec vous sur la ration alimentaire de votre chien ou votre chat au besoin. Désireuse d'en savoir toujours plus, je tiens mes connaissances à jour grace aux différents congrès de médecine du comportement, et à des formations complémentaires. Je suis actuellement une formation complémentaire sur la gestion de l'anxiété de séparation chez le chien. 
 
-Je propose mes services auprès de tous les animaux : chiens, chats, chevaux, lapins, perroquets… Grace à une connaissance étroite des besoins de chaque espèce. Désireuse d'en savoir toujours plus, je tiens mes connaissances à jour grace aux différents congrès de médecine du comportement, et à des formations complémentaires. 
+Je propose mes services auprès de tous les animaux : chiens, chats, chevaux, lapins, perroquets… Grace à une connaissance étroite des besoins de chaque espèce. 
 
 Je me rends à votre domicile dans la Vienne et les départements limitrophes, ou chez votre vétérinaire avec son accord. Je consulte également au sein du Centre Hospitalier Universitaire Vétérinaire d’Alfort à l’école de Maisons-Alfort (94), à la clinique de référé TouraineVet à Rochecorbon (37), et à la clinique vétérinaire Saint-Roch à la Rochelle (17).
