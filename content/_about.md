@@ -21,4 +21,4 @@ Je propose mes services auprès de tous les animaux : chiens, chats, chevaux, 
 
 J’ai une sensibilité toute particulière pour les chevaux, étant moi-même cavalière et pratiquante d’une équitation au sein de laquelle je recherche avant tout le bien-être du cheval. Je travaille en relation étroite avec la Docteure vétérinaire Laure Bonati qui a réalisé son mémoire de CEAV sur l’évaluation du bien-être du cheval monté.
 
-Je consulte d’ores et déjà au sein du Centre Hospitalier Universitaire Vétérinaire d’Alfort à l’école de Maisons-Alfort (94), et à la clinique de référé TouraineVet à Rochecorbon (37).
+Je me rends à votre domicile dans la Vienne et les départements limitrophes, ou chez votre vétérinaire avec son accord. Je consulte également au sein du Centre Hospitalier Universitaire Vétérinaire d’Alfort à l’école de Maisons-Alfort (94), à la clinique de référé TouraineVet à Rochecorbon (37), et à la clinique vétérinaire Saint-Roch à la Rochelle (17).
