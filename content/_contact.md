@@ -3,7 +3,7 @@ title: Contact
 fragment: contact
 email: contact@vet-guillon.fr
 images:
-  - src: /img/9deef91a-c301-4ffb-a5b8-ef321010b754.jpeg
+  - src: /img/9353530f-bc50-4f0c-be36-a2cca286d7d0.jpeg
     alt: Test Alt 1
     title: Test title 1
 ---
