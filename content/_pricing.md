@@ -3,7 +3,7 @@ title: Tarifs
 fragment: tarifs
 pricing:
   - type: Consultation de comportement toutes espèces
-    price: "**150€** +/- déplacement"
+    price: "**150€** + déplacement"
     details: |-
       Consultation pour problème(s) de comportement : malpropreté, agressivité,
       peurs, anxiété, problèmes d’embarquement, rétivité aux soins
@@ -16,7 +16,7 @@ pricing:
 
 
       [loi-2008]: https://www.veterinaire.fr/je-suis-proprietaire-danimaux/fiches-pratiques/levaluation-comportementale-des-chiens
-  - type: Diagnose de catégorie
+  - type: Diagnose morphologique à destination des chiens de catégorie
     price: "**90€** + déplacement"
     details: |-
       Détermination de l’appartenance ou non à une catégorie (chiens de type
