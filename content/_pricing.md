@@ -27,7 +27,7 @@ pricing:
       Diagnose morphologique - particuliers 
 
       Toujours couplée à une évaluation comportementale
-    price: "**200 €**"
+    price: "**220 €** + déplacement"
     details: >-
       Détermination de l’appartenance ou non à une catégorie (chiens de type
 
