@@ -39,9 +39,6 @@ pricing:
     price: "**120€** + déplacement"
     details: Evaluation du bien-être de votre animal et pistes éventuelles
       d’amélioration
-  - type: Consultation conseils arrivée d’un nouvel animal
-    price: "**100€** + déplacement"
-    details: Conseils pour démarrer du bon pied avec un nouveau compagnon
   - type: Déplacement
     price: "**75 cts/km**"
     details: Frais de déplacement partagés si plusieurs consultations dans la meme zone
