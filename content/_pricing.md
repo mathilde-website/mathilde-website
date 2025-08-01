@@ -3,13 +3,13 @@ title: Tarifs
 fragment: tarifs
 pricing:
   - type: Consultation de comportement toutes espèces
-    price: "**150€** + déplacement"
+    price: "**160€** + déplacement"
     details: >-
       Consultation pour problème(s) de comportement : malpropreté, agressivité,
 
       peurs, anxiété, problèmes d’embarquement, rétivité aux soins, troubles du comportement alimentaire, stéréotypies/comportements anormaux, ...
   - type: Evaluation comportementale
-    price: "**190€** + déplacement"
+    price: "**200€** + déplacement"
     details: >-
       Evaluation de la dangerosité d’un chien (chien de catégorie, chien
 
@@ -30,7 +30,7 @@ pricing:
     price: "**100€** + déplacement"
     details: Conseils pour démarrer du bon pied avec un nouveau compagnon
   - type: Déplacement
-    price: "**60 cts/km**"
+    price: "**75 cts/km**"
     details: Frais de déplacement partagés si plusieurs consultations dans la meme zone
 images:
   - src: /img/20220912_190521.jpg
