@@ -8,7 +8,8 @@ images:
     title: Test title 1
 ---
 <center>
-Vous pouvez me joindre au [**07 49 99 76 87**](tel:+33749997687)<br>ou par email à **[](mailto:)**.
+Vous pouvez me joindre au \[\*\*07 49 99 76 87\*\*](tel:+33749997687)<br>ou par email à \*\*\[](mailto:)\*\*. **Prise de rendez-vous et renseignements par mail uniquement.**
 
-Retrouvez-moi sur ma [**page Facebook**](https://www.facebook.com/drevetmathildeguillon) et dans [**Véthologie, le podcast**](https://podcasts.audiomeans.fr/vethologie-01120b78)
+Retrouvez-moi sur ma **[page Facebook](https://www.facebook.com/drevetmathildeguillon)** et dans **[Véthologie, le podcast](https://podcasts.audiomeans.fr/vethologie-01120b78)**
+
 </center>
