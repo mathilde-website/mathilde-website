@@ -47,18 +47,19 @@ pricing:
       d’amélioration
   - type: Consultation de suivi
     price: "**90€** + déplacement"
-    details: Consultation de suivi, si nécessaire, entre 3 mois et un an après la
-      1ère consultation
-  - type: Suivi à distance
-    price: "**60€/heure**"
     details: >-
-      1er suivi téléphonique inclus dans le prix de la consultation initiale
+      Consultation de suivi, si nécessaire, entre 3 mois et un an après la 1ère
+      consultation
 
 
-      Le suivi téléphonique est possible uniquement si la consultation initiale date de moins d'un an
+      Possible en visio dans certains cas (conditions à voir ensemble)
   - type: Déplacement
     price: "**75 cts/km**"
-    details: Frais de déplacement partagés si plusieurs consultations dans la meme zone
+    details: >-
+      Frais de déplacement partagés si plusieurs consultations dans la meme
+      zone\
+
+      Déplacement possible uniquement dans un rayon de 60 km autour de Poitiers, hors déplacement en clinique vétérinaire
 images:
   - src: /img/20220912_190521.jpg
     alt: Test Alt 1
