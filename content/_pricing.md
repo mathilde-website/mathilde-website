@@ -59,6 +59,9 @@ pricing:
       Frais de déplacement partagés si plusieurs consultations dans la meme
       zone\
 
+      <br>
+
+
       Déplacement possible uniquement dans un rayon de 60 km autour de Poitiers, hors déplacement en clinique vétérinaire
 images:
   - src: /img/20220912_190521.jpg
