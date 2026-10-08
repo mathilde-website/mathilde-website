@@ -8,7 +8,11 @@ images:
     title: Test title 1
 ---
 <center>
-Vous pouvez me joindre au [**07 49 99 76 87**](tel:+33749997687)<br>ou par email à **[](mailto:)**. **Prise de rendez-vous et renseignements par mail uniquement.**
+Vous pouvez me joindre au \[\*\*07 49 99 76 87\*\*](tel:+33749997687)<br>ou par email à \*\*\[](mailto:)\*\*. \*\*Prise de rendez-vous et renseignements par mail uniquement.\*\*
+
+Réponse aux mails en une semaine maximum (hors période de vacances), en moyenne deux ou trois jours
+
+Délai avant rendez-vous d'un mois en moyenne (hors déplacements en clinique)
 
 Retrouvez-moi sur ma **[page Facebook](https://www.facebook.com/drevetmathildeguillon)** et dans **[Véthologie, le podcast](https://podcasts.audiomeans.fr/vethologie-01120b78)**
 
