@@ -1,9 +1,35 @@
 repos:
+  - repo: builtin
+    hooks:
+      - id: check-case-conflict
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: check-added-large-files
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: mixed-line-ending
+
   - repo: local
     hooks:
+      - id: uv-lock
+        name: uv-lock
+        entry: env UV_FROZEN=false uv lock
+        language: system
+        files: ^(uv\.lock|pyproject\.toml|uv\.toml)$
+        pass_filenames: false
+
       - id: optimize-images
         name: Optimize images
         entry: uv run --script .github/scripts/optimize_images.py
         language: system
         files: ^content/img/.*\.(jpe?g|png)$
         pass_filenames: false
+
+      # zizmor is not a project dependency, so run it as a one-off tool.
+      - id: zizmor
+        name: zizmor
+        entry: uvx zizmor@1.28.0 --no-progress --fix=all
+        language: system
+        types: [yaml]
+        files: (\.github/(workflows/.*|dependabot\.ya?ml))|(action\.ya?ml)$
+        require_serial: true
