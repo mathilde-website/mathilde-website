@@ -9,7 +9,7 @@ publish_mode: editorial_workflow
 media_folder: "content/img"
 public_folder: "/img"
 
-site_url: https://www.vet-guillon.fr
+site_url: https://vet-guillon.fr
 
 collections:
 
