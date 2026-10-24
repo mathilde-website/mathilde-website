@@ -4,7 +4,7 @@ title: Conditions Générales de Fonctionnement
 ---
 # ***Mathilde Guillon, vétérinaire consultante en medecine du comportement***
 
-Tout acte effectué sur un animal lors des consultations de comportement est soumis aux présentes conditions générales de fonctionnement
+Tout acte effectué sur un animal lors des consultations de comportement est soumis aux présentes conditions générales de  fonctionnement
 
 ### Lieux des consultations
 
@@ -13,7 +13,7 @@ La docteure vétérinaire Mathilde Guillon ne dispose pas d’établissement de
 Moyens de contact de la docteure vétérinaire Mathilde Guillon :
 
 * Par téléphone au 07 49 99 76 87
-* Par mail à l’adresse *[](mailto:)*
+* Par mail à l’adresse [](mailto:)
 
 ### Horaires d'ouverture habituels et conditions d'accueil du public
 
