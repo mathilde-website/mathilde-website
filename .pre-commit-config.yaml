@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: optimize-images
+        name: Optimize images
+        entry: uv run --script .github/scripts/optimize_images.py
+        language: system
+        files: ^content/img/.*\.(jpe?g|png)$
+        pass_filenames: false
