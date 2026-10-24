@@ -1,6 +1,6 @@
 variables:
   base_url:
-    default: "https://www.vet-guillon.fr/"
+    default: "https://vet-guillon.fr/"
     from_env: URL
 
 steps:
