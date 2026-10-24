@@ -2,7 +2,7 @@
 title: Qui suis-je ?
 fragment: qui-suis-je
 images:
-  - src: /img/1.png
+  - src: /img/1.jpg
     alt: Test Alt 1
     title: Test title 1
   - src: /img/2ffcaba1-943b-480d-a280-30e3f83ad027.jpeg
