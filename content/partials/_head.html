@@ -19,10 +19,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 
   <!-- Open Graph / Facebook -->
-  {% set social_url = '{base_url}/img/{social_file}'.format(
-    base_url=base_url,
-    social_file=seo_metadata.social_file | default('social.png'),
-  ) %}
+  {% set social_url = base_url.rstrip('/') ~ '/' ~ (seo_metadata.social_file | default('img/social.png')).lstrip('/') %}
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ seo_metadata.page_title }}">
   <meta property="og:url" content="{{ base_url }}">

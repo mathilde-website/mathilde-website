@@ -10,7 +10,7 @@ pricing:
       peurs, anxiété, rétivité aux soins, troubles du comportement alimentaire, stéréotypies/comportements anormaux, ...
 
 
-      Durée : 1 à 2h 
+      Durée : 1 à 2h
 
 
       Le tarif inclut le prix du suivi par mail ; suivis téléphoniques ou visio possibles sur rendez-vous, pouvant engendrer un surcout qui vous sera indiqué à l'avance
@@ -27,7 +27,7 @@ pricing:
       Détermination de l’appartenance ou non à une catégorie (chiens de type
       « pitbulls », croisés Rottweilers, boerbulls)
   - type: |-
-      Diagnose morphologique - particuliers 
+      Diagnose morphologique - particuliers
 
       Toujours couplée à une évaluation comportementale
     price: "**220 €** + déplacement"
@@ -42,7 +42,7 @@ pricing:
     price: "**120€** + déplacement"
     details: >-
       Evaluation du bien-être de votre animal et pistes éventuelles
-      d’amélioration, calculs de rations (y compris rations ménagères) 
+      d’amélioration, calculs de rations (y compris rations ménagères)
 
 
       Toute consultation de nutrition s'accompagne d'une évaluation de l'environnement

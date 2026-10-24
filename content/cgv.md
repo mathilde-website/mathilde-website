@@ -38,7 +38,7 @@ Les espèces habituellement et occasionnellement traitées lors des consultation
 * Chiens
 * Chats
 * Chevaux
-* Nouveaux Animaux de Compagnie 
+* Nouveaux Animaux de Compagnie
 
 ### Conditions tarifaires
 
@@ -52,7 +52,7 @@ En cas de litige à caractère déontologique, le client peut s’adresser au CR
 
 ### RCP
 
-Adresse de la compagnie assurance en charge de la RCP de la docteure vétérinaire Mathilde Guillon : La Médicale, 1 rue Alphonse de Saintonge, 17000 La Rochelle 
+Adresse de la compagnie assurance en charge de la RCP de la docteure vétérinaire Mathilde Guillon : La Médicale, 1 rue Alphonse de Saintonge, 17000 La Rochelle
 
 ### Loi « Informatique et libertés », secret professionnel
 

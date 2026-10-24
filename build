@@ -1,4 +1,4 @@
 #!/bin/bash -eu
 
-poetry run ./data.py
-exec poetry run combine build
+uv run ./data.py
+exec uv run combine build

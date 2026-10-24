@@ -15,7 +15,7 @@ C’est donc tout naturellement que j’ai poursuivi mes études par un Certific
 
 Je propose aujourd’hui mes services en tant que vétérinaire consultante en médecine du comportement, en travaillant en lien étroit avec votre vétérinaire traitant. Mon approche se veut bienveillante, à l’écoute des besoins de l’humain autant que de ceux de l’animal. J’ai d’ailleurs également suivi une formation complémentaire en psychologie au cours de mon CEAV afin de vous fournir le meilleur accompagnement possible. 
 
-Je dispose d’une formation complémentaire en nutrition physiologique et pathologique des carnivores domestiques, qui peut me permettre de revenir avec vous sur la ration alimentaire de votre chien ou votre chat au besoin. Désireuse d'en savoir toujours plus, je tiens mes connaissances à jour grace aux différents congrès de médecine du comportement, et à des formations complémentaires. 
+Je dispose d’une formation complémentaire en nutrition physiologique et pathologique des carnivores domestiques, qui peut me permettre de revenir avec vous sur la ration alimentaire de votre chien ou votre chat au besoin. Désireuse d'en savoir toujours plus, je tiens mes connaissances à jour grace aux différents congrès de médecine du comportement, et à des formations complémentaires.
 
 Je propose mes services auprès de tous les animaux : chiens, chats, chevaux, lapins, perroquets… Grace à des connaissances basées sur les données de la science. Je m'attache à connaitre et respecter les besoins éthologiques et physiologiques de chaque espèce, afin de m'assurer du bien-etre de chacun.
 
