@@ -32,8 +32,8 @@ jobs:
         with:
           enable-cache: false
 
-      - name: Run prek
-        uses: j178/prek-action@44924fe9ef4a6f88253c4b6b1bf11c689d3ce53d # v3.1.0
+      - name: Optimize images
+        run: uv run --script .github/scripts/optimize_images.py
 
       - name: Install Node dependencies
         run: npm ci
