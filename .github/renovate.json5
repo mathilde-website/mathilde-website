@@ -6,6 +6,14 @@
     enabled: true,
     automerge: true,
   },
+  customManagers: [
+    {
+      customType: "regex",
+      managerFilePatterns: ["/^content/admin/index\\.html$/"],
+      matchStrings: ["unpkg\\.com/(?<depName>@sveltia/cms)@(?<currentValue>[^/]+)/"],
+      datasourceTemplate: "npm",
+    },
+  ],
   packageRules: [
     {
       groupName: "all dependencies",
