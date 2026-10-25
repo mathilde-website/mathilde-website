@@ -12,8 +12,8 @@
   </div>
 
   <div class="hidden mx-auto menu sm:block">
-    <div class="flex flex-col items-center sm:flex-row">
-      <a class="flex-1 hidden px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg sm:block hover:bg-gray-500/20" href="#" >{{ metadata.menu_title }}</a>
+    <div class="flex flex-col items-center sm:flex-row sm:items-stretch">
+      <a class="flex-1 hidden px-1 py-5 font-bold tracking-widest text-center uppercase sm:text-sm md:text-base lg:px-5 lg:text-lg sm:flex sm:items-center sm:justify-center hover:bg-gray-500/20" href="#" >{{ metadata.menu_title }}</a>
       {% for link in [
         {"label": about.title, "url": "#" + about.fragment},
         {"label": services.title, "url": "#" + services.fragment},
@@ -22,7 +22,7 @@
         {"label": "Facebook", "url": metadata.facebook_url, "ext": True},
         {"label": "Véthologie", "url": "https://podcasts.audiomeans.fr/vethologie-01120b78", "ext": True},
       ] %}
-      <a class="flex-1 px-2 py-5 font-bold tracking-widest text-center uppercase align-middle sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" target="{% if link.ext|default(False) %}_blank{% else %}_self{% endif %}" href="{{ link.url }}">{{ link.label }}</a>
+      <a class="flex-1 px-2 py-5 font-bold tracking-widest text-center uppercase sm:flex sm:items-center sm:justify-center sm:text-sm md:text-base lg:px-5 lg:text-lg hover:bg-gray-500/20" target="{% if link.ext|default(False) %}_blank{% else %}_self{% endif %}" href="{{ link.url }}">{{ link.label }}</a>
       {% endfor %}
     </div>
   </div>
