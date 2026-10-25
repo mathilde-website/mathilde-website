@@ -27,6 +27,7 @@ collections:
     - label: "Métadonnées pour les moteurs de recherche et les réseaux sociaux"
       name: seo_metadata
       file: content/_seo_metadata.yml
+      preview_path: "/"
       fields:
         - {label: "Titre de l'onglet", name: "page_title", widget: "string"}
         - {label: "Description (pour les moteurs de recherche)", name: "description", widget: "string"}
@@ -35,6 +36,7 @@ collections:
     - label: "Contenu de la bannière et du pied de page"
       name: metadata
       file: content/_metadata.yml
+      preview_path: "/"
       fields:
         - {label: "Titre du site (bannière)", name: title, widget: "string"}
         - {label: "Titre du site (menu de navigation)", name: menu_title, widget: "string"}
@@ -59,6 +61,7 @@ collections:
       - label: "Qui suis-je ?"
         name: "about"
         file: "content/_about.md"
+        preview_path: "/#qui-suis-je"
         fields:
           - label: Titre
             name: title
@@ -77,6 +80,7 @@ collections:
       - label: "Prestations"
         name: "services"
         file: "content/_services.md"
+        preview_path: "/#prestations"
         fields:
           - label: Titre
             name: title
@@ -95,6 +99,7 @@ collections:
       - label: "Tarifs"
         name: "pricing"
         file: "content/_pricing.md"
+        preview_path: "/#tarifs"
         fields:
           - label: Titre
             name: title
@@ -121,6 +126,7 @@ collections:
       - label: "Contact"
         name: "contact"
         file: "content/_contact.md"
+        preview_path: "/#contact"
         fields:
           - label: Titre
             name: title
@@ -148,6 +154,7 @@ collections:
       - label: "Conditions générales de vente"
         name: "cgv"
         file: "content/cgv.md"
+        preview_path: "/cgv/"
         fields:
           - name: template
             widget: hidden
