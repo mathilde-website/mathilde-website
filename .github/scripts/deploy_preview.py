@@ -76,6 +76,10 @@ def start():
 def deploy():
     url = upload(alias_for(os.environ["HEAD_REF"]))
     set_status(os.environ["DEPLOYMENT_ID"], "success", url)
+    gh_api(
+        f"repos/{os.environ['GITHUB_REPOSITORY']}/statuses/{os.environ['HEAD_SHA']}",
+        {"state": "success", "target_url": url, "context": "Deploy preview"},
+    )
     print(f"Preview: {url}")
 
 
