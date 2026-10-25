@@ -1,0 +1,9 @@
+{
+  "name": "mathilde-website",
+  "compatibility_date": "2026-10-25",
+  "assets": {
+    "directory": "./output"
+  },
+  "workers_dev": true,
+  "preview_urls": true
+}
