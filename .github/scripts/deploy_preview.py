@@ -6,6 +6,7 @@ import os
 import pathlib
 import re
 import subprocess
+import sys
 import tempfile
 
 WORKER_NAME = "mathilde-website"
@@ -46,10 +47,19 @@ def gh_api(path, payload):
     return json.loads(result.stdout)
 
 
-def record_deployment(url):
-    repo = os.environ["GITHUB_REPOSITORY"]
+def set_status(deployment_id, state, url=None):
+    payload = {"state": state, "log_url": os.environ["RUN_URL"]}
+    if url:
+        payload["environment_url"] = url
+    gh_api(
+        f"repos/{os.environ['GITHUB_REPOSITORY']}/deployments/{deployment_id}/statuses",
+        payload,
+    )
+
+
+def start():
     deployment = gh_api(
-        f"repos/{repo}/deployments",
+        f"repos/{os.environ['GITHUB_REPOSITORY']}/deployments",
         {
             "ref": os.environ["HEAD_SHA"],
             "environment": "preview",
@@ -58,20 +68,23 @@ def record_deployment(url):
             "transient_environment": True,
         },
     )
-    gh_api(
-        f"repos/{repo}/deployments/{deployment['id']}/statuses",
-        {
-            "state": "success",
-            "environment_url": url,
-            "log_url": os.environ["RUN_URL"],
-        },
-    )
+    set_status(deployment["id"], "in_progress")
+    with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+        output.write(f"deployment_id={deployment['id']}\n")
+
+
+def deploy():
+    url = upload(alias_for(os.environ["HEAD_REF"]))
+    set_status(os.environ["DEPLOYMENT_ID"], "success", url)
+    print(f"Preview: {url}")
+
+
+def fail():
+    set_status(os.environ["DEPLOYMENT_ID"], os.environ["FAILED_STATE"])
 
 
 def main():
-    url = upload(alias_for(os.environ["HEAD_REF"]))
-    record_deployment(url)
-    print(f"Preview: {url}")
+    {"start": start, "deploy": deploy, "fail": fail}[sys.argv[1]]()
 
 
 if __name__ == "__main__":
