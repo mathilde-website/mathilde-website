@@ -45,8 +45,7 @@ pricing:
   - type: Déplacement
     price: '**75 cts/km**'
     details: |-
-      Frais de déplacement partagés si plusieurs consultations dans la même zone\
-      <br>
+      Frais de déplacement partagés si plusieurs consultations dans la même zone<br>
 
       Déplacement possible uniquement dans un rayon de 60 km autour de Poitiers, hors déplacement en clinique vétérinaire
 
