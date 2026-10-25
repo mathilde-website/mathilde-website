@@ -37,9 +37,9 @@
 
 {%- endmacro -%}
 
-{%- macro section(sec) -%}
+{%- macro section(sec, centered=False) -%}
 <section class="flex flex-col w-full py-6 mx-0 lg:p-12 sm:p-6 {% if dir.next() %}md:flex-row{% else %}md:flex-row-reverse{% endif %} min-w-fit {{ bg_colors.next() }}">
-<div class="flex-1 px-6 py-6 md:text-justify lg:px-12 md">
+<div class="flex-1 px-6 py-6 {% if centered %}text-center{% else %}md:text-justify{% endif %} lg:px-12 md">
 {% if sec.title is defined %}
 <h3 class="pb-4 text-xl font-bold"{% if sec.fragment is defined %} id="{{ sec.fragment }}{% endif %}">
   {{ sec.title }}
@@ -100,7 +100,7 @@
 </div>
 {% endcall %}
 
-{% call section(contact) %}
+{% call section(contact, centered=True) %}
 <span id="email" data-email="{{ contact.email.split('@')[0] }}" data-domain="{{ contact.email.split('@')[1] }}"></span>
 {% endcall %}
 
