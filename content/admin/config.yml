@@ -1,21 +1,17 @@
+locale: fr
+
 backend:
   name: github
   branch: main
   repo: mathilde-website/mathilde-website
   base_url: https://sveltia-cms-auth.ewjoachim.workers.dev
+  preview_context: Deploy preview
 
-publish_mode: preview
+publish_mode: editorial_workflow
 
 media_folder: "content/img"
 public_folder: "/img"
 
-media_libraries:
-  default:
-    config:
-      transformations:
-        raster_image:
-          width: 1400
-          height: 1400
 
 site_url: https://vet-guillon.fr
 
@@ -43,13 +39,6 @@ collections:
         - label: "Image de bannière"
           name: hero_image
           widget: image
-          media_libraries:
-            default:
-              config:
-                transformations:
-                  raster_image:
-                    width: 2560
-                    height: 2560
         - {label: "Sous-titre", name: subtitle, widget: "markdown"}
         - {label: "URL de la page facebook", name: facebook_url, widget: "string"}
         - {label: "Contenu du footer (copyright etc)", name: copyright, widget: "markdown"}

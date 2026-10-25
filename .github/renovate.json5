@@ -10,7 +10,7 @@
     {
       customType: "regex",
       managerFilePatterns: ["/^content/admin/index\\.html$/"],
-      matchStrings: ["unpkg\\.com/(?<depName>@sveltia/cms)@(?<currentValue>[^/]+)/"],
+      matchStrings: ["unpkg\\.com/(?<depName>decap-cms)@(?<currentValue>[^/]+)/"],
       datasourceTemplate: "npm",
     },
   ],
