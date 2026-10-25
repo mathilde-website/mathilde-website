@@ -1,6 +1,5 @@
 ---
 title: Qui suis-je ?
-fragment: qui-suis-je
 images:
   - src: /img/1.jpg
     alt: Test Alt 1
@@ -8,10 +7,12 @@ images:
   - src: /img/2ffcaba1-943b-480d-a280-30e3f83ad027.jpeg
     alt: Test alt 2
     title: Test title 2
+fragment: qui-suis-je
 ---
+
 Sortie de l’Ecole Nationale Vétérinaire d’Alfort en 2017, je me suis passionnée très tôt dans mon cursus pour la médecine du comportement. Cette discipline qui permettait à la fois de prendre le temps de réellement connaître l’animal et son propriétaire, et de réellement soulager le duo animal/propriétaire dans son quotidien, correspondait parfaitement à l’idée que je me faisais de la médecine vétérinaire. 
 
-C’est donc tout naturellement que j’ai poursuivi mes études par un Certificat d’Etudes Approfondies Vétérinaire en éthologie clinique et appliquée aux animaux de compagnie, que j’ai obtenu en novembre 2021. Au cours de cette formation, j’ai également appris à réaliser des évaluations comportementales et des diagnoses de chiens de catégorie. 
+C’est donc tout naturellement que j’ai poursuivi mes études par un Certificat d’Études Approfondies Vétérinaire en éthologie clinique et appliquée aux animaux de compagnie, que j’ai obtenu en novembre 2021. Au cours de cette formation, j’ai également appris à réaliser des évaluations comportementales et des diagnoses de chiens de catégorie. 
 
 Je propose aujourd’hui mes services en tant que vétérinaire consultante en médecine du comportement, en travaillant en lien étroit avec votre vétérinaire traitant. Mon approche se veut bienveillante, à l’écoute des besoins de l’humain autant que de ceux de l’animal. J’ai d’ailleurs également suivi une formation complémentaire en psychologie au cours de mon CEAV afin de vous fournir le meilleur accompagnement possible. 
 
