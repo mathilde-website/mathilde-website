@@ -4,7 +4,10 @@ import pathlib
 import frontmatter
 import yaml
 
-exclude = {pathlib.Path("content/admin/config.yml")}
+exclude = {
+    pathlib.Path("content/admin/config.yml"),
+    pathlib.Path("content/admin-decap/config.yml"),
+}
 
 
 def main():
